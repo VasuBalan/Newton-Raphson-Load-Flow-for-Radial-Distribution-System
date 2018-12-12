@@ -5,7 +5,7 @@
 *  Ref Book 1 : Computer Methods in Power system Analysis      	  	*
 *  Ref Book 2 : Electrical Power System  			        *
 *  https://rosettacode.org/wiki/Gaussian_elimination			* 
-*  mail id : vasu@ee.iitkgp.ernet.in					*
+*  mail id : vasubdevan@yahoo.com					*
 * 									*
 * Last Modified Date : 30.10.2017					*
 *************************************************************************/
