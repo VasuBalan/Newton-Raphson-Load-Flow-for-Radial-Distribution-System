@@ -76,10 +76,9 @@ double* initializeDoubleArray(double* A, int n) {
   return A; 
 }
 double *createDoubleArray(double *A, int n) {
-  double *array;
-  array = (double *) malloc (n * sizeof(double));
-  initializeDoubleArray(array, n);
-  return array; 
+  A = (double *) malloc (n * sizeof(double));
+  initializeDoubleArray(A, n);
+  return A; 
 }
 BusData* initializeBusData(BusData* AB, int nb) {
   int i;
