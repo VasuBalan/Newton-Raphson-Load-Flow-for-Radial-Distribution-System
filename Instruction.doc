@@ -4,7 +4,7 @@ Here two input data file are there :
 1.bus33.dat
 2.bus69.dat
 
-Output Files are :
+Output Files are corresponding to the above input file :
 1.Result33.out
 2.Result69.out
 
@@ -28,6 +28,7 @@ To run this program in linux
 gcc -o anyname LF.c -lm
 ./anyname
 
+If any one wants to check memory leaks use valgrind in linux machine.
 
 To run this program in windows 
 
