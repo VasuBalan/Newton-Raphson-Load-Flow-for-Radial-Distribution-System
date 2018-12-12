@@ -27,11 +27,11 @@ typedef struct {
   int MIter;
 }SystemDetails;
 typedef struct {
-  char inputfile1[20];
-  char output1[20];		// ybus 
-  char output2[20];		// Voltage values
-  char output3[20];		// Jacobian J11, J22, J33, J44, Delp and DelQ
-  char output4[20];		// Matrix inversion of J11, J22, J33 and J44
+  char inputfile1[20];		// Input file 	
+  char output1[20];		// Output file for ybus 
+  char output2[20];		// Output file for Voltage values
+  char output3[20];		// Jacobian J11, J22, J33, J44, Delp and DelQ for every iterations
+  char output4[20];		// Matrix inversion of J11, J22, J33 and J44 
   char output5[20];		// LoadFlow Results
 }FileDetails;
 typedef struct {
